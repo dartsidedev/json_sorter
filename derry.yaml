@@ -1,0 +1,24 @@
+get: pub get
+build: pub run build_runner build
+format: dartfmt -w --set-exit-if-changed .
+analyze: dart analyze --fatal-infos --fatal-warnings .
+test: dart test
+test-coverage:
+  - pub global activate test_coverage
+  - pub global run test_coverage
+example:
+  - cd example && dartfmt -w --set-exit-if-changed .
+  - cd example && dart analyze --fatal-infos --fatal-warnings .
+publish-dry-run:
+  - pub publish --dry-run
+# Verify everything
+check:
+  - $get
+  - $build
+  - $format
+  - $analyze
+  - $test
+  - $example
+  - $test-coverage
+  - $publish-dry-run
+
