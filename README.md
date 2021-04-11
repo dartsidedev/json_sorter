@@ -40,6 +40,8 @@ It also supports custom indentation.
 If you don't need custom indentation, just call the [`jsonSortedEncode`](https://pub.dev/documentation/json_sorter/latest/json_sorter/jsonSortedEncode.html)
 function with the object you want to encode as JSON, and voila, all your keys are sorted.
 
+You'll need Dart SDK 2.12.0 or higher.
+
 ## Usage
 
 * `json_sorter` on the command-line: Install either globally or as a dev dependency
