@@ -1,7 +1,8 @@
 # `json_sorter`
 
 > Command-line tool to sort JSON files in-place by map key and reusable sorted JSON encoder. 
-[![Continuous Integration](https://github.com/dartsidedev/json_sorter/workflows/Continuous%20Integration/badge.svg?branch=master)](https://github.com/dartsidedev/json_sorter/actions) [![codecov](https://codecov.io/gh/dartsidedev/json_sorter/branch/master/graph/badge.svg)](https://codecov.io/gh/dartsidedev/json_sorter) [![json_sorter](https://img.shields.io/pub/v/json_sorter?label=json_sorter&logo=dart)](https://pub.dev/packages/json_sorter 'See json_sorter package info on pub.dev') [![Published by dartside.dev](https://img.shields.io/static/v1?label=Published%20by&message=dartside.dev&logo=dart&logoWidth=30&color=40C4FF&labelColor=1d599b&labelWidth=100)](https://pub.dev/publishers/dartside.dev/packages) [![GitHub Stars Count](https://img.shields.io/github/stars/dartsidedev/json_sorter?logo=github)](https://github.com/dartsidedev/json_sorter 'Star me on GitHub!')
+
+[![Continuous Integration](https://github.com/dartsidedev/json_sorter/workflows/Continuous%20Integration/badge.svg?branch=main)](https://github.com/dartsidedev/json_sorter/actions) [![codecov](https://codecov.io/gh/dartsidedev/json_sorter/branch/main/graph/badge.svg)](https://codecov.io/gh/dartsidedev/json_sorter) [![json_sorter](https://img.shields.io/pub/v/json_sorter?label=json_sorter&logo=dart)](https://pub.dev/packages/json_sorter 'See json_sorter package info on pub.dev') [![Published by dartside.dev](https://img.shields.io/static/v1?label=Published%20by&message=dartside.dev&logo=dart&logoWidth=30&color=40C4FF&labelColor=1d599b&labelWidth=100)](https://pub.dev/publishers/dartside.dev/packages) [![GitHub Stars Count](https://img.shields.io/github/stars/dartsidedev/json_sorter?logo=github)](https://github.com/dartsidedev/json_sorter 'Star me on GitHub!')
 
 ## Important links
 
