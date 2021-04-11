@@ -8,4 +8,4 @@ const String homepage = '''https://www.github.com/dartsidedev/json_sorter''';
 const String issueTracker =
     '''https://www.github.com/dartsidedev/json_sorter/issues''';
 const String name = '''json_sorter''';
-const String version = '''0.1.0''';
+const String version = '''0.1.1''';

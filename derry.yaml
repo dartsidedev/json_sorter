@@ -6,6 +6,7 @@ test: dart test
 test-coverage:
   - pub global activate test_coverage
   - pub global run test_coverage
+  - genhtml coverage/lcov.info -o coverage/html
 example:
   - cd example && dartfmt -w --set-exit-if-changed .
   - cd example && dart analyze --fatal-infos --fatal-warnings .

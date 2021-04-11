@@ -1,6 +1,6 @@
 name: json_sorter
 description: Command-line tool to sort JSON files by key and reusable sorted JSON encoder. 
-version: 0.1.1
+version: 1.0.0
 homepage: https://www.github.com/dartsidedev/json_sorter
 issue_tracker: https://www.github.com/dartsidedev/json_sorter/issues
 executables:

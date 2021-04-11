@@ -1,6 +1,5 @@
+import 'package:json_sorter/src/bin/parse_arguments.dart';
 import 'package:test/test.dart';
-
-import '../../bin/json_sorter.dart';
 
 void main() {
   group('$parseArguments', () {
@@ -87,29 +86,6 @@ void main() {
       expect(ac.verbose, true);
       expect(ac.spaceIndent, 4);
       expect(ac.tabIndent, null);
-    });
-  });
-
-  group('$buildIndent', () {
-    test('4 spaces', () {
-      expect(buildIndent(4, null), '    ');
-    });
-
-    test('2 spaces', () {
-      expect(buildIndent(2, null), '  ');
-    });
-
-    test('tab', () {
-      expect(buildIndent(null, true), '\t');
-    });
-
-    test('none', () {
-      expect(buildIndent(null, null), null);
-    });
-
-    test('throws if both spaces and tabs are set', () {
-      expect(() => buildIndent(4, true), throwsA(anything));
-      expect(() => buildIndent(4, false), throwsA(anything));
     });
   });
 }

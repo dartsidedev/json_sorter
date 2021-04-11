@@ -4,7 +4,7 @@ import 'package:test/test.dart';
 void main() {
   group('$JsonSortedEncoder', () {
     test('encodes with the map keys sorted', () {
-      const encoder = JsonSortedEncoder();
+      final encoder = JsonSortedEncoder();
       expect(
         encoder.convert(inputMap),
         sortedJsonOutput,
@@ -12,10 +12,19 @@ void main() {
     });
 
     test('encodes with the map keys sorted with indent', () {
-      const encoder = JsonSortedEncoder.withIndent('  ');
+      final encoder = JsonSortedEncoder.withIndent('  ');
       expect(
         encoder.convert(inputMap),
         indentedSortedJsonOutput,
+      );
+    });
+  });
+
+  group('$jsonSortedEncode', () {
+    test('encodes with the map keys sorted', () {
+      expect(
+        jsonSortedEncode(inputMap),
+        sortedJsonOutput,
       );
     });
   });
