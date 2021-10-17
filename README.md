@@ -53,17 +53,17 @@ Keep in mind that how you invoke the `json_sorter` depends on how you installed 
 
 #### As dev dependency
 
-You can run Dart scripts from your dependencies using the `pub run` command.
+You can run Dart scripts from your dependencies using the `dart run` or `flutter run` command.
 
-1. Add `json_sorter` to your `dev_dependencies`: `pub run add -d json_sorter`.
-2. Run the script `pub run json_sorter --space-indent 2 filename.json`
+1. Add `json_sorter` to your `dev_dependencies`: `dart pub add -d json_sorter` or `flutter pub add -d json_sorter`.
+2. Run the script `dart run json_sorter --space-indent 2 filename.json` or `flutter run json_sorter --space-indent 2 filename.json`
 
 #### Global installation
 
 If you install `json_sorter` globally, you can execute it simply by typing `json_sorter example.json`.
 
 ```
-pub global activate json_sorter
+dart pub global activate json_sorter # or: flutter pub global activate json_sorter
 json_sorter --help
 json_sorter --version
 json_sorter --tab-indent example.json
